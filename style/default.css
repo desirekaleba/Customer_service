@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#about_us h2::after{
+    content : '';
+    display: block;
+    background-color: rgb(8, 7, 75);
+    background-size: 12px;
+    width: 130px;
+    height: 3px;
+    margin: 12px 1px 12px 1px;
+    
+
+}
+#services{
+    background-image: url('../images/services_back.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contact h2::after{
+    content: '';
+    display: block;
+    background-color: rgb(8, 7, 75);
+    background-size: 12px;
+    width: 150px;
+    height: 3px;
+    margin: 15px auto 10px;
+}

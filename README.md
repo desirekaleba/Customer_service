@@ -10,6 +10,8 @@ This projects holds functionalities of a Customer Service SYSTEM
 
 * javascript
 
+* ajax
+
 * bootstrap
 
 * php (PDO)

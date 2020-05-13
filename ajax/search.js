@@ -5,7 +5,6 @@ let searchC = (firstname) => {
     let request = new XMLHttpRequest();
 
     if (firstname.length == 0) {
-
         request.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
 
